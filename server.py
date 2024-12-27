@@ -1,6 +1,4 @@
-import google.generativeai as genai
-import csv
-import json
+
 from flask import Flask,request, render_template
 import os
 app = Flask(__name__)
